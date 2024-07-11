@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+chromadb = "*"
+langchain = "==0.2.7"
+langchain-community = "==0.2.7"
+langchain-core = "==0.2.12"
+langchain-experimental = "==0.0.62"
+langchain-openai = "==0.1.14"
+langchain-text-splitters = "==0.2.2"
+langsmith = "==0.1.84"
+openai = "==1.35.13"
+pillow = "==10.4.0"
+pymupdf = "*"
+pytz = "==2024.1"
+requests = "==2.32.3"
+streamlit = "==1.36.0"
+tiktoken = "==0.7.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
